@@ -3,4 +3,4 @@ app=Flask("deepu")
 @app.route('/')
 def hello():
     return 'welcome'
-app.run()
+app.run(debug = True)
